@@ -13,7 +13,7 @@ public class EjemploCasting {
         alfa = (char) 'b';
         System.out.println(alfa);
         
-        char caracter = (char) alfa;   //alfa es entero, con casting lo pasmaos a caracter
+        char caracter = (char) alfa;   //alfa es entero, con casting lo pasamos a caracter
         System.out.println(caracter);
         
         
@@ -21,7 +21,7 @@ public class EjemploCasting {
         int numero = Integer.parseInt("100");  //le estoy pasando una cadena para que sea un enter
         System.out.println(numero*3);          // esto permite hacer operaciones luego como si fuer aun entero normal
         
-        String cadena = Integer.toString(23);  // Le pasamos un entero con tostring para transformarlo en cadena
+        String cadena = Integer.toString(23);  // Le pasamos un entero con toString para transformarlo en cadena
         System.out.println(cadena);
     }
     
