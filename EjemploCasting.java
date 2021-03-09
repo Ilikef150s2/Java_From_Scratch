@@ -7,7 +7,7 @@ public class EjemploCasting {
         float beta = 23.5F;
         beta = alfa;
         
-        alfa = (int) beta;   /*se pone al tipo de dato entre parentesis que se quiere cambiar y luego la variable
+        alfa = (int) beta;   /*se pone al tipo de dato entre parentesis al que se quiere cambiar y luego la variable
                                 que tiene el valor . el valor de beta que es float pasa
                                a ser entero por la conversion. */
         alfa = (char) 'b';
