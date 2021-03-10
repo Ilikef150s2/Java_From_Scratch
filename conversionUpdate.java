@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class HolaMundo {
+public class conversionDatos {
     
     public static void main(String[] args) {
 
