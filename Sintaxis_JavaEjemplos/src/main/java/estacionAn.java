@@ -1,12 +1,11 @@
-
 import java.util.Scanner;
 
-public class estacionAn{
+public class estacionAn{   // Nombre de la clase, esta es publica
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {   //Declaramos que esta sera la clase main, donde llamara el codigo a ejecutar.
 
-        var scanner = new Scanner(System.in);
-        System.out.println("Proporciona el mes del año:");
+        var scanner = new Scanner(System.in);   //Creamos la variable para pedir datos
+        System.out.println("Proporciona el mes del año: ");
         var mes = scanner.nextInt();//mes del año
 
         String estacion = null;
@@ -27,6 +26,6 @@ public class estacionAn{
             estacion = "Mes incorrecto";
         }
         
-        System.out.println("estacion:" + estacion + " para el mes: " + mes);
+        System.out.println("estacion: " + estacion + ", para el mes: " + mes);
     }
 }
