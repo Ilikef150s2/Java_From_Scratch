@@ -15,6 +15,7 @@ public class operaRelacio{
         
         String cadena = "hola";
         String cadena2 = "hola";
+        // con equals podemos verificar si dos cadenas son iguales, o mejor dicho el contenido del string
         System.out.println( cadena.equals(cadena2) );
         
         boolean d = a <= b;

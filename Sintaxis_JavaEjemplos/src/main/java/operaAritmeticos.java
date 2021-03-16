@@ -29,6 +29,7 @@ public class operaAritmeticos {
         resultado = a % 2;
         System.out.println("resultado = " + resultado);
         
+        //operador modulo
         resultado = 123 % 2;
         System.out.println("resultado = " + resultado);
         
