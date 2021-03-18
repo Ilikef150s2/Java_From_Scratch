@@ -12,7 +12,7 @@ public class PruebaAritmetica2 {
         
         Aritmetica aritmetica2 = new Aritmetica(5, 9);
         System.out.println("El valor a del constructor pasando argumentos es: " + aritmetica2.a);
-        System.out.println("El varlo de la variable b pasando argumento con el construc es: " + aritmetica2.b);
+        System.out.println("El valor de la variable b pasando argumento con el construc es: " + aritmetica2.b);
         
     }
     //cremoa sotro metodo para probar el alcance de las variables.
