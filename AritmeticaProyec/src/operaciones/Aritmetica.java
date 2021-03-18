@@ -3,9 +3,20 @@ package operaciones;
 
 public class Aritmetica {
     //atributos 
-    int a;
+    int a = 3;
     int b;
     
+    // constructor vacio.
+public Aritmetica(){
+    System.out.println("Ejecutando constructor");
+}
+
+//constructor con argumento
+public Aritmetica(int a, int b){
+    this.a = a;
+    this.b = b;
+    System.out.println("ejecutando constructor con argumentos ");
+}
     //metodo void que significa que no devuelve ningun valor en especifico.
     public void suma(){
        int resultado = a + b;
