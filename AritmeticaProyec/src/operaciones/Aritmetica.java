@@ -19,7 +19,8 @@ public Aritmetica(int a, int b){
 }
     //metodo void que significa que no devuelve ningun valor en especifico.
     public void suma(){
-       int resultado = a + b;
+        //usamos this para referer que son atributos  de nuestra clase Aritmetica
+       int resultado = this.a + this.b;
         System.out.println("Resultado: " + resultado);
     }
     
