@@ -34,5 +34,13 @@ public class Persona {
     public void setEliminado(boolean eliminado){
         this.eliminado = eliminado;
     }
+    /*este metodo devuelve cadenas de string. lo usamos para pasar
+    todos los valores como una cadena de strings*/
+    public String toString(){
+        return "Persona [ nombre: " + 
+                this.nombre + ", sueldo: " +
+                this.sueldo + ", eliminado: " +
+                this.eliminado + " ]";
+    }
     
 }
