@@ -19,7 +19,7 @@ public class PersonaPrueba {
 
         //imprime la cadena de texto que creamos con el metodo toString
         System.out.println("persona1: " + persona1);
-        
+
         /*Podemos escribir el metodo toString para imprimir pero
         no es necesario ya que cuando en la clase persona
         lee un metodo toString devuelve automaticamente los valores
