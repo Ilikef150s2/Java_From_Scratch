@@ -7,6 +7,6 @@ public class CajaPrueba {
        caja.profundo = 6;
        
        // imprimimos resultado usando el objeto caja y llamando al metodo calcularVolumen
-        System.out.println("El volumen de la caja es: " + caja.calcularVolumen());
+        System.out.println("El volumen de la caja es: " + caja.alto);
     }
 }
