@@ -10,6 +10,7 @@ public class Persona {
     
     //agregamos el constructor vacio
     public Persona(){
+        
 }
     //agregamos el constructor para iniciar nombre
     public Persona (String nombre){

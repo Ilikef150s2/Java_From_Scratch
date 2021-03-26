@@ -6,10 +6,15 @@ public class Empleado extends Persona{
     private double sueldo;
     private static int contadorEmpleado; //se hara referencia a la clase Empleado y no al objeto
     
-    public Empleado(String nombre, double sueldo){
-        super(nombre);
+    public Empleado(){
         //incrementamos el contados y hacemos uso del atributo statico
         this.idEmpleado = ++Empleado.contadorEmpleado;
+    }
+    
+    public Empleado(String nombre, double sueldo){
+       // super(nombre);   no usamos super en este caso por que solo se puede usar super o this pero no los dos
+        this();
+        this.nombre = nombre;
         this.sueldo = sueldo;     
 }
     //cremaos get and set para manipular los valores de los atributos
