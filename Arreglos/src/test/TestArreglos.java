@@ -11,5 +11,11 @@ public class TestArreglos {
         edades[0] = 10;
         //Ahora imprimimos lo que esta en la posicion del arreglo numero 0
         System.out.println("elemento 0 " +  ": " + edades[0]);
+        
+        //edades[3] = 2;  esto es un error ya que no hay una posicion donde almacenar el 2
+        
+        for(int i = 0; i < edades.length; i++){
+            System.out.println("edades elementos " + i +": " + edades[i]);
+        }
     }
 }
