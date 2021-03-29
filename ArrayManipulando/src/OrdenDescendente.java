@@ -35,7 +35,7 @@ public class OrdenDescendente {
     public static void imprimir(int[] arr) {
         //el for recorre todo el arreglo desde la posicion 0
         for (int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i] + ", ");
+            System.out.print(arr[i] + ", ");
         }
     }
 
