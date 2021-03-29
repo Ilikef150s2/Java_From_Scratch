@@ -29,5 +29,18 @@ public class TestMatrices {
                 System.out.println("edades: " + ren + "-" + col + ": " + edades[ren][col]);
             }
         }
+
+        System.out.println("Imprimiendo matriz de frutas");
+        //ingresamos valor a la matriz de forma manual y sencilla.
+        String frutas[][] = {{"Banano", "Jocote", "Mandarina"}};
+
+        for (int ren = 0; ren < frutas.length; ren++) {
+            for (int col = 0; col < frutas[ren].length; col++) {
+                //aplicamos lo mismo que al principio le damos al for interno que recorra el tama;o del reglon que es 2
+                System.out.println("Fruta en posicion: " + ren + "-" + col + ": " + frutas[ren][col]);
+                //mandamos a imprimir los valores que encuentra en la matriz.
+            }
+
+        }
     }
 }
