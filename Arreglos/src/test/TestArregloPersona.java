@@ -1,0 +1,20 @@
+
+package test;
+
+import domain.Persona;
+
+public class TestArregloPersona {
+    public static void main(String[] args) {
+        /*Declaramos un objeto arreglo de tipo persona con 2 elementos*/
+        Persona personas[] = new Persona[2];
+        //tipo persona, nombre del arreglo, new arreglo con numero de elementos
+        
+        //creamos los objetos del arreglo personas:
+        personas[0]= new Persona("Juan");
+        personas[1]= new Persona("Karla");
+        //nombre del objeto  y luego se crea pasandole el valor
+        
+        System.out.println("Persona 0= " + personas[0]);
+        System.out.println("Persona 1= " + personas[1]);
+    }
+}
