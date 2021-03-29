@@ -13,4 +13,4 @@ como usarlo en Java para futuros aprendizajes
 
 para identificar mejor las clases y los atributos al igual que los paquetes, declaramos las clases siempre la primer letra
 mayuscula, y los atributos siempre se comeinza con minuscula y los paquetes no llevan ninguna mayuscula. las palabras que tienen todas
-mayuscula las tomamos como CONSTANTES
+mayuscula las tomamos como CONSTANTES.
