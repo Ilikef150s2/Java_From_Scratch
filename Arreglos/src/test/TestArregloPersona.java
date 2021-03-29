@@ -16,5 +16,10 @@ public class TestArregloPersona {
         
         System.out.println("Persona 0= " + personas[0]);
         System.out.println("Persona 1= " + personas[1]);
+        
+        //recorreos el arreglo y mostramos en pantalla el mismo arreglo con .length
+        for(int i=0; i < personas.length; i++){
+            System.out.println("persona "+ i + ": "+ personas[i]);
+        }
     }
 }
