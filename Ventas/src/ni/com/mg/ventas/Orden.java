@@ -43,4 +43,16 @@ public class Orden {
         }
         return total;
     }
+    
+    public void mostrarOrden(){
+        System.out.println("Id Orden: " + this.idOrden);
+        double totalOrden = this.calcularTotal(); /*imprimimos totalOrden 
+        llamando el metodo calcularTotal*/
+        System.out.println("Total de la orden : " + "$" +totalOrden);
+        System.out.println("Productos de la orden: " + this.contadorProductos);//agregamos contadorProductos para ver cuantos productos tiene la orden
+        for (int i = 0; i < this.contadorProductos; i++) { /*creamos este for para leer los productos
+            del arreglo productos*/
+            System.out.println(this.productos[i]);
+        }
+    }
 }
