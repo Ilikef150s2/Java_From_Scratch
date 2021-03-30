@@ -20,7 +20,7 @@ public class Producto {
     
     /*Creamos constructor que llevara los demas argumentos*/
     public Producto(String nombre, double precio){
-        this();
+        this(); //llamada a constructor privada de la clase
         this.nombre = nombre;
         this.precio = precio;
     }
