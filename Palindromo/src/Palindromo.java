@@ -2,7 +2,7 @@
 public class Palindromo {
     public static void main(String[] args) {
         String palabra = "oso"; //declaramos palabra de tipo String y le  pasamos oso
-        System.out.println("El texto "+palabra+"es palindromo? : "+detecPalindromo(palabra));
+        System.out.println("El texto "+palabra+" es palindromo? : "+detecPalindromo(palabra));
         //imprimimos y mandamos a llamar el metodo detecPalindromo
     }
     
