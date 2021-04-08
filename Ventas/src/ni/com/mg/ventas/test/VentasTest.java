@@ -1,6 +1,6 @@
 package ni.com.mg.ventas.test;
 
-import ni.com.mg.ventas.*;  //importamos todas las clases con el aterisco
+import ni.com.mg.ventas.*;  //importamos todas las clases que estan dentro del paquete con el aterisco
 
 public class VentasTest {
 
