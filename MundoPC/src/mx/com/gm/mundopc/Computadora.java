@@ -8,11 +8,12 @@ public class Computadora {
     private Raton raton;
     private static int contadorComputadoras;
     
-    private Computadora(){
+    private Computadora(){ //creamos un constructor privado
         this.idComputadora = ++Computadora.contadorComputadoras;
     }
     
     public Computadora(String nombre, Monitor monitor, Teclado teclado, Raton raton){
+        /*Creamos el constructor pasandole todos los valores*/
         this();
         this.nombre = nombre;
         this.monitor = monitor;
