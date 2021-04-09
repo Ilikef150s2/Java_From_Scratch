@@ -1,9 +1,10 @@
 package mx.com.gm.mundopc;
-
+//esta clase es la clase padre
 public class DispositivoEntrada {
     private String tipoEntrada;
     private String marca;
     
+    //creamos un constructor publico con dos argumentos
     public DispositivoEntrada(String tipoEntrada, String marca){
         this.tipoEntrada = tipoEntrada;
         this.marca = marca;
@@ -27,7 +28,7 @@ public class DispositivoEntrada {
 
     @Override
     public String toString() {
-        return "DispositivoEntrada{" + "tipoEntrada=" + tipoEntrada + ", marca=" + marca + '}';
+        return "DispositivoEntrada{" + "tipoEntrada= " + tipoEntrada + ", marca= " + marca + '}';
     }
     
     
