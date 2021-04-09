@@ -13,6 +13,7 @@ public enum Continentes {
         this.paises = paises;
     }
     
+    //creamos un get para llamar los paises del continente
     public int getPaises(){
         return this.paises;
     }

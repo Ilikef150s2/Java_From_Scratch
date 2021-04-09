@@ -1,11 +1,15 @@
 
 package test;
 
+import enumeracion.Continentes;
 import enumeracion.Dias;
 
 public class TestEnumeraciones {
     public static void main(String[] args) {
-        indicarDiaSemana(Dias.LUNES);
+        
+        //indicarDiaSemana(Dias.LUNES);
+        System.out.println("Continente #4: " + Continentes.AMERICA);
+        System.out.println("Paises en el 4 continente: " + Continentes.AMERICA.getPaises());
     }
     
     private static void indicarDiaSemana(Dias dias){
