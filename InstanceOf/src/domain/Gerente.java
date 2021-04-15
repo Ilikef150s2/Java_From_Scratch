@@ -19,5 +19,13 @@ public class Gerente extends Empleado {
     /*Usamos return con super para recuperar los datos
         que tenemos en el constructor de la clase padre
         y solo agregamos el departamento*/
+
+    public String getDepartamento() {
+        return departamento;
+    }
+
+    public void setDepartamento(String departamento) {
+        this.departamento = departamento;
+    }
     
 }
