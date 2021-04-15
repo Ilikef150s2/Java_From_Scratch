@@ -2,7 +2,7 @@
 package domain;
 
 public enum TipoEscritura {
-    CLASICO("Escritura a mano");
+    CLASICO("Escritura a mano"),
     MODERNO("Escritura digital");
     
     private final String descripcion;
